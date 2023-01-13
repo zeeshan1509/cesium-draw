@@ -16,8 +16,9 @@ import cesiumDrawer from "cesium-draw-custom"
 const drawer = new cesiumDrawer(viewer);
 
 ```
-###set properties of drawn shape, we can set our own if we do not define it we use default values
+Set properties of drawn shape, we can set our own if we do not define it we use default values
 ```javascript
+//point
 drawer.startDraw({
 	type: 'point',
 	color: '',
@@ -38,17 +39,17 @@ drawer.startDraw({
 })
 //polyline
 drawer.startDraw({
-	type: 'polygon',
+	type: 'polyline',
 	lineMaterial: '',
 	polylineWidth: ''
 
 })
 ```
-###For Start editing
+For Start editing
 ```javascript
 drawer.startEdit(entity,entityType)
 ```
-###For Finish editing
+For Finish editing
 ```javascript
 drawer.finishEditing();
 ```
