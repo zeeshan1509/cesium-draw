@@ -1,6 +1,6 @@
 {
   "name": "cesium-draw-custom",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cesium draw library",
   "main": "./src/cesiumDraw.js",
   "scripts": {
@@ -16,5 +16,9 @@
     "url": "https://github.com/zeeshan1509/cesium-draw/issues"
   },
   "homepage": "https://github.com/zeeshan1509/cesium-draw#readme",
-  "keywords": ["cesium-draw","cesium","react"]
+  "keywords": [
+    "cesium-draw",
+    "cesium",
+    "react"
+  ]
 }
